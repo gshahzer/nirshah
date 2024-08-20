@@ -8,7 +8,15 @@ const page = () => {
       <div className="flex-col gap-3 ">
         
         <div>
-          <video src="video.mp4" width={500} autoPlay></video>
+        <iframe
+        src="https://drive.google.com/file/d/1dWXHPzcFbhEFRdVvG1MJoFNPy5n9mUV5/preview"
+        width="800"
+        height="480"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+        title="Video"
+      ></iframe>
+
         </div>
     
       </div>
